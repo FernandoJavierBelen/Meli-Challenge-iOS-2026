@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		565F0439767BEFFFDBBFD047 /* Pods_ChallengeMeli_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D2E550888596CB7011F25F8 /* Pods_ChallengeMeli_iOS.framework */; };
+		646E4DCA5C3569D4FA0A73E4 /* Pods_ChallengeMeli_iOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A07945F11C5866EB4613376D /* Pods_ChallengeMeli_iOSTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		92B0DB742F553D62007F0F6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92B0DB552F553D5E007F0F6A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92B0DB5C2F553D5E007F0F6A;
+			remoteInfo = "ChallengeMeli-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D2E550888596CB7011F25F8 /* Pods_ChallengeMeli_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChallengeMeli_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D9D53CEF1CB1548E56BBB5F /* Pods-ChallengeMeli-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChallengeMeli-iOS.release.xcconfig"; path = "Target Support Files/Pods-ChallengeMeli-iOS/Pods-ChallengeMeli-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		6235761938F5D4A8328942E7 /* Pods-ChallengeMeli-iOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChallengeMeli-iOSTests.release.xcconfig"; path = "Target Support Files/Pods-ChallengeMeli-iOSTests/Pods-ChallengeMeli-iOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		7D05E4EB2F607E013CA18493 /* Pods-ChallengeMeli-iOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChallengeMeli-iOSTests.debug.xcconfig"; path = "Target Support Files/Pods-ChallengeMeli-iOSTests/Pods-ChallengeMeli-iOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		83F580CD12280A5B0826730F /* Pods-ChallengeMeli-iOS-ChallengeMeli-iOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChallengeMeli-iOS-ChallengeMeli-iOSUITests.debug.xcconfig"; path = "Target Support Files/Pods-ChallengeMeli-iOS-ChallengeMeli-iOSUITests/Pods-ChallengeMeli-iOS-ChallengeMeli-iOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		92B0DB5D2F553D5E007F0F6A /* ChallengeMeli-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ChallengeMeli-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92B0DB732F553D62007F0F6A /* ChallengeMeli-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ChallengeMeli-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A07945F11C5866EB4613376D /* Pods_ChallengeMeli_iOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChallengeMeli_iOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E870162E91340A282D844B67 /* Pods-ChallengeMeli-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChallengeMeli-iOS.debug.xcconfig"; path = "Target Support Files/Pods-ChallengeMeli-iOS/Pods-ChallengeMeli-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		F3077BB12BE3201E64B4DBCE /* Pods-ChallengeMeli-iOS-ChallengeMeli-iOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChallengeMeli-iOS-ChallengeMeli-iOSUITests.release.xcconfig"; path = "Target Support Files/Pods-ChallengeMeli-iOS-ChallengeMeli-iOSUITests/Pods-ChallengeMeli-iOS-ChallengeMeli-iOSUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FC1B8EFC627FBE7AC0768945 /* Pods_ChallengeMeli_iOS_ChallengeMeli_iOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChallengeMeli_iOS_ChallengeMeli_iOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		92B0DB852F553D62007F0F6A /* Exceptions for "ChallengeMeli-iOS" folder in "ChallengeMeli-iOS" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				System/Info.plist,
+			);
+			target = 92B0DB5C2F553D5E007F0F6A /* ChallengeMeli-iOS */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		92B0DB5F2F553D5E007F0F6A /* ChallengeMeli-iOS */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				92B0DB852F553D62007F0F6A /* Exceptions for "ChallengeMeli-iOS" folder in "ChallengeMeli-iOS" target */,
+			);
+			path = "ChallengeMeli-iOS";
+			sourceTree = "<group>";
+		};
+		92B0DB762F553D62007F0F6A /* ChallengeMeli-iOSTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
+			path = "ChallengeMeli-iOSTests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92B0DB5A2F553D5E007F0F6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				565F0439767BEFFFDBBFD047 /* Pods_ChallengeMeli_iOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92B0DB702F553D62007F0F6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				646E4DCA5C3569D4FA0A73E4 /* Pods_ChallengeMeli_iOSTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2EB2DDD3AD8BB051526A5BAC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E870162E91340A282D844B67 /* Pods-ChallengeMeli-iOS.debug.xcconfig */,
+				1D9D53CEF1CB1548E56BBB5F /* Pods-ChallengeMeli-iOS.release.xcconfig */,
+				83F580CD12280A5B0826730F /* Pods-ChallengeMeli-iOS-ChallengeMeli-iOSUITests.debug.xcconfig */,
+				F3077BB12BE3201E64B4DBCE /* Pods-ChallengeMeli-iOS-ChallengeMeli-iOSUITests.release.xcconfig */,
+				7D05E4EB2F607E013CA18493 /* Pods-ChallengeMeli-iOSTests.debug.xcconfig */,
+				6235761938F5D4A8328942E7 /* Pods-ChallengeMeli-iOSTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3725D4DE9C5FF73E8E6ADFC3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1D2E550888596CB7011F25F8 /* Pods_ChallengeMeli_iOS.framework */,
+				FC1B8EFC627FBE7AC0768945 /* Pods_ChallengeMeli_iOS_ChallengeMeli_iOSUITests.framework */,
+				A07945F11C5866EB4613376D /* Pods_ChallengeMeli_iOSTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		92B0DB542F553D5E007F0F6A = {
+			isa = PBXGroup;
+			children = (
+				92B0DB5F2F553D5E007F0F6A /* ChallengeMeli-iOS */,
+				92B0DB762F553D62007F0F6A /* ChallengeMeli-iOSTests */,
+				92B0DB5E2F553D5E007F0F6A /* Products */,
+				2EB2DDD3AD8BB051526A5BAC /* Pods */,
+				3725D4DE9C5FF73E8E6ADFC3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		92B0DB5E2F553D5E007F0F6A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92B0DB5D2F553D5E007F0F6A /* ChallengeMeli-iOS.app */,
+				92B0DB732F553D62007F0F6A /* ChallengeMeli-iOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92B0DB5C2F553D5E007F0F6A /* ChallengeMeli-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92B0DB862F553D62007F0F6A /* Build configuration list for PBXNativeTarget "ChallengeMeli-iOS" */;
+			buildPhases = (
+				53DA1A5F70EA192FDF33B3C5 /* [CP] Check Pods Manifest.lock */,
+				92B0DB592F553D5E007F0F6A /* Sources */,
+				92B0DB5A2F553D5E007F0F6A /* Frameworks */,
+				92B0DB5B2F553D5E007F0F6A /* Resources */,
+				B7698CF70D271D552A066536 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				92B0DB5F2F553D5E007F0F6A /* ChallengeMeli-iOS */,
+			);
+			name = "ChallengeMeli-iOS";
+			productName = "ChallengeMeli-iOS";
+			productReference = 92B0DB5D2F553D5E007F0F6A /* ChallengeMeli-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		92B0DB722F553D62007F0F6A /* ChallengeMeli-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92B0DB8B2F553D62007F0F6A /* Build configuration list for PBXNativeTarget "ChallengeMeli-iOSTests" */;
+			buildPhases = (
+				FCA7668286D3E4F1BF8541A0 /* [CP] Check Pods Manifest.lock */,
+				92B0DB6F2F553D62007F0F6A /* Sources */,
+				92B0DB702F553D62007F0F6A /* Frameworks */,
+				92B0DB712F553D62007F0F6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92B0DB752F553D62007F0F6A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				92B0DB762F553D62007F0F6A /* ChallengeMeli-iOSTests */,
+			);
+			name = "ChallengeMeli-iOSTests";
+			productName = "ChallengeMeli-iOSTests";
+			productReference = 92B0DB732F553D62007F0F6A /* ChallengeMeli-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92B0DB552F553D5E007F0F6A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					92B0DB5C2F553D5E007F0F6A = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					92B0DB722F553D62007F0F6A = {
+						CreatedOnToolsVersion = 16.4;
+						LastSwiftMigration = 1640;
+						TestTargetID = 92B0DB5C2F553D5E007F0F6A;
+					};
+				};
+			};
+			buildConfigurationList = 92B0DB582F553D5E007F0F6A /* Build configuration list for PBXProject "ChallengeMeli-iOS" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 92B0DB542F553D5E007F0F6A;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 92B0DB5E2F553D5E007F0F6A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92B0DB5C2F553D5E007F0F6A /* ChallengeMeli-iOS */,
+				92B0DB722F553D62007F0F6A /* ChallengeMeli-iOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92B0DB5B2F553D5E007F0F6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92B0DB712F553D62007F0F6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		53DA1A5F70EA192FDF33B3C5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChallengeMeli-iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7698CF70D271D552A066536 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChallengeMeli-iOS/Pods-ChallengeMeli-iOS-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChallengeMeli-iOS/Pods-ChallengeMeli-iOS-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ChallengeMeli-iOS/Pods-ChallengeMeli-iOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FCA7668286D3E4F1BF8541A0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChallengeMeli-iOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92B0DB592F553D5E007F0F6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92B0DB6F2F553D62007F0F6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		92B0DB752F553D62007F0F6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92B0DB5C2F553D5E007F0F6A /* ChallengeMeli-iOS */;
+			targetProxy = 92B0DB742F553D62007F0F6A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		92B0DB872F553D62007F0F6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E870162E91340A282D844B67 /* Pods-ChallengeMeli-iOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YS36U3YS2Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ChallengeMeli-iOS/System/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Challenge Meli";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "fernandojavierbelen.ChallengeMeli-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		92B0DB882F553D62007F0F6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D9D53CEF1CB1548E56BBB5F /* Pods-ChallengeMeli-iOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YS36U3YS2Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ChallengeMeli-iOS/System/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Challenge Meli";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "fernandojavierbelen.ChallengeMeli-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		92B0DB892F553D62007F0F6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = YS36U3YS2Q;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		92B0DB8A2F553D62007F0F6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = YS36U3YS2Q;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92B0DB8C2F553D62007F0F6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D05E4EB2F607E013CA18493 /* Pods-ChallengeMeli-iOSTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YS36U3YS2Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "fernandojavierbelen.ChallengeMeli-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChallengeMeli-iOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ChallengeMeli-iOS";
+			};
+			name = Debug;
+		};
+		92B0DB8D2F553D62007F0F6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6235761938F5D4A8328942E7 /* Pods-ChallengeMeli-iOSTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YS36U3YS2Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "fernandojavierbelen.ChallengeMeli-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChallengeMeli-iOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ChallengeMeli-iOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92B0DB582F553D5E007F0F6A /* Build configuration list for PBXProject "ChallengeMeli-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92B0DB892F553D62007F0F6A /* Debug */,
+				92B0DB8A2F553D62007F0F6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92B0DB862F553D62007F0F6A /* Build configuration list for PBXNativeTarget "ChallengeMeli-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92B0DB872F553D62007F0F6A /* Debug */,
+				92B0DB882F553D62007F0F6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92B0DB8B2F553D62007F0F6A /* Build configuration list for PBXNativeTarget "ChallengeMeli-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92B0DB8C2F553D62007F0F6A /* Debug */,
+				92B0DB8D2F553D62007F0F6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92B0DB552F553D5E007F0F6A /* Project object */;
+}
